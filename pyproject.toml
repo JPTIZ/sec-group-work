@@ -2,9 +2,13 @@
 name = "simpkcs12"
 version = "0.1.0"
 description = "Simple PKCS12 tools."
-authors = ["João Paulo Taylor Ienczak Zanette <jpaulotiz@gmail.com>"]
+authors = [
+    "João Paulo Taylor Ienczak Zanette <jpaulotiz@gmail.com>",
+    "Larissa Taw Rumiana de Oliveira <>",
+]
 
 [tool.poetry.dependencies]
+carl = "*"
 python = "^3.7"
 pyOpenSSL = "^19.0"
 
